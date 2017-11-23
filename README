@@ -1,9 +1,9 @@
-Little example how to import and access HIDAPI from Swift 3 in conjunction with the Griffin Power Mate controller.
+Little example how to import and access HIDAPI from Swift 3 in conjunction with the Griffin Power Mate controller and the Luxafor Flag (http://luxafor.nl).
 
-This is a Swift 3 port of https://github.com/kybernetyk/pm8
+This is a Swift 3 (and 4) port of https://github.com/kybernetyk/pm8
 
 Dependencies:
-    - Xcode 8, Swift 3.1
+    - Xcode 8+, Swift 3.1+
     - hidapi ( https://github.com/signal11/hidapi ) [brew install hidapi]
 
 
@@ -18,10 +18,11 @@ Build:
 
 
 Run:
-    You need to quit the Griffin Power Mate companion app first. Otherwise the device will be busy and not accessible to us!
+    - Griffin Power Mate: you need to quit the Griffin Power Mate companion app first. Otherwise the device will be busy and not accessible to us!
+    - Luxafor Flag: you need to quit the Luxafor companion app first. Otherwise the device will behave unexpectedly
 
 Copyright & License:
     This code is licensed under the Affero GPL3 License!
     (c) Jarosław Leon Szpilewski
-
+    with additions from Eric-Paul Lecluse
 
