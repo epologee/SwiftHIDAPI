@@ -39,6 +39,22 @@ public enum LuxaforFlag {
 
         return true
     }
+
+    public static func send(_ operation: LuxaforOperation) throws {
+        guard let handle = hid_open(vendorId, productId, nil) else {
+            throw LuxaforError.flagNotFound
+        }
+
+        defer {
+            hid_close(handle)
+        }
+
+        hid_write(handle, operation.operation, 9)
+    }
+
+    public enum LuxaforError: Error {
+        case flagNotFound
+    }
 }
 
 public struct LuxaforOperation {
