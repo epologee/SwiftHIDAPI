@@ -57,6 +57,16 @@ public enum LuxaforFlag {
     }
 }
 
+extension LuxaforOperation {
+    public static var instantOff: LuxaforOperation {
+        return self.init(leds: .all, color: .off, transition: .instant)
+    }
+
+    public static var pulseRed: LuxaforOperation {
+        return self.init(leds: .all, color: .on(255, 0, 0), transition: .pulse(speed: 30))
+    }
+}
+
 public struct LuxaforOperation {
     public var leds: LED
     public var color: LEDColor
