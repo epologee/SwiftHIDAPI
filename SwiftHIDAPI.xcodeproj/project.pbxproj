@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D9268DF1DD7512D0022835D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9268DE1DD7512D0022835D /* main.swift */; };
+		95C336B01FC6D6E100D849D8 /* LuxaforFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C336AF1FC6D6E100D849D8 /* LuxaforFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		0DC3F2781DD75BCE00DECCE6 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		0DC3F2791DD7656700DECCE6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0DC3F27A1DD7656D00DECCE6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		95C336AF1FC6D6E100D849D8 /* LuxaforFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxaforFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				0D9268DE1DD7512D0022835D /* main.swift */,
+				95C336AF1FC6D6E100D849D8 /* LuxaforFlag.swift */,
 			);
 			path = SwiftHIDAPI;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9268DF1DD7512D0022835D /* main.swift in Sources */,
+				95C336B01FC6D6E100D849D8 /* LuxaforFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

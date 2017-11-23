@@ -140,5 +140,16 @@ func mainLoop() {
     }
 }
 
+func mainLoopLuxafor() -> Int32 {
+    guard LuxaforFlag.isConnected else {
+        print("Luxafor Flag not found")
+        return 1
+    }
+
+    return 0
+}
+
 //enumerateDevices()
-mainLoop()
+//mainLoop()
+exit(mainLoopLuxafor())
+
